@@ -9,7 +9,9 @@ Aetheria is an intelligent, full-stack adaptive AI tutoring system designed arou
 ## 🌟 Key Pillars & Features
 
 ### 1. 17 Distinct Pedagogical Methodologies
+
 The engine dynamically chooses the optimal teaching strategy based on subject, topic, and learner state:
+
 1. **Direct Teaching** — Clarity, structure, and foundational definitions.
 2. **Socratic Teaching** — Critical inquiry that guides students to discover solutions without spoiling answers.
 3. **Step-by-Step Teaching** — Procedural rigor breaking complex derivations into sequential stages.
@@ -29,6 +31,7 @@ The engine dynamically chooses the optimal teaching strategy based on subject, t
 17. **Exam / Performance** — Assessment training with mark allocations and strict rubric grading.
 
 ### 2. Subject-Aware Intelligence
+
 * **Mathematics**: Algebraic rigor, derivation tracking, LaTeX rendering ($...$).
 * **Physics**: Coordinate reference frames, unit tracking, and vector vs scalar discrimination.
 * **Chemistry**: Molecular mechanisms, balanced reaction kinetics, and stoichiometry.
@@ -37,10 +40,12 @@ The engine dynamically chooses the optimal teaching strategy based on subject, t
 * **English & Languages**: Textual evidence, syntax mechanics, and rhetorical argument synthesis.
 
 ### 3. Continuous Understanding vs Memorization Engine
+
 * **4-Tier Cognitive Depth Tracker**: Measures **Recognition → Understanding → Application → True Mastery**.
 * **Persistent Misconception Memory**: Diagnoses root errors, logs occurrence counts, and prescribes counter-pedagogies.
 
 ### 4. Interactive Learning Studio
+
 * **Active Strategy Banner**: Real-time transparency showing which of the 17 strategies is active and its pedagogical rule.
 * **Socratic Nudge Bar**: Quick triggers (*"Explain simpler"*, *"Give me a hint"*, *"Why from first principles?"*, *"Real-world analogy"*, *"Test my mastery"*).
 * **Multimodal**: Built-in speech-to-text voice input and audio readout.
@@ -59,16 +64,19 @@ The engine dynamically chooses the optimal teaching strategy based on subject, t
 ## 🚀 Quick Start & Installation
 
 ### Prerequisites
-- Python 3.10+
-- Node.js 18+ & npm
+
+* Python 3.10+
+* Node.js 18+ & npm
 
 ### 1. Clone the repository
+
 ```bash
 git clone https://github.com/asg492607/ai-tutor.git
 cd ai-tutor
 ```
 
 ### 2. Backend Setup
+
 ```bash
 cd backend
 python -m venv .venv
@@ -86,12 +94,15 @@ pip install -r requirements.txt
 # Start the server:
 uvicorn main:app --host 127.0.0.1 --port 8000 --reload
 ```
+
 API runs at `http://127.0.0.1:8000`. Interactive docs at `http://127.0.0.1:8000/docs`.
 
 ### 3. Frontend Setup
+
 ```bash
 cd ../frontend
 npm install
 npm run dev
 ```
+
 Client runs at `http://127.0.0.1:5173`.

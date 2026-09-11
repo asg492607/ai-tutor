@@ -76,8 +76,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Glassmorphic Container */
 .glass-panel {
   background: var(--bg-card);
-  backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
   border: 1px solid var(--border-subtle);
   border-radius: 16px;
   box-shadow: var(--shadow-card);
@@ -97,18 +97,21 @@ h1, h2, h3, h4, h5, h6 {
 .gradient-text {
   background: linear-gradient(135deg, #ffffff 0%, var(--cyan-400) 50%, var(--indigo-400) 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .gradient-text-emerald {
   background: linear-gradient(135deg, #ffffff 0%, var(--emerald-400) 70%, var(--cyan-400) 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .gradient-text-purple {
   background: linear-gradient(135deg, #ffffff 0%, var(--purple-400) 70%, var(--indigo-400) 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
