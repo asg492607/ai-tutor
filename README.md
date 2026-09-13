@@ -1,4 +1,4 @@
-# Aetheria — Adaptive AI Tutor Platform 🎓🧠
+# Aetheria — Adaptive AI Tutor Platform 🎓🧠 INITIAL ONE
 
 > **"The goal is not to give students answers. The goal is to make students understand, think, practice, apply, and independently perform."**
 
